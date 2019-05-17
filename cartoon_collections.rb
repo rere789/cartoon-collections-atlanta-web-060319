@@ -18,5 +18,8 @@ end
 
 def find_the_cheese(array)
   # the array below is here to help
-    array.include?("cheddar")
+    if array.include?("cheddar")
+      return "cheddar"
+    else
+      nil 
 end
