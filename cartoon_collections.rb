@@ -18,7 +18,8 @@ end
 
 def find_the_cheese(array)
   # the array below is here to help
-    if array.include?("cheddar")
+  type_of_cheese = ["cheddar", ]
+     array.each include?("cheddar")
       return array 
     else
       nil 
