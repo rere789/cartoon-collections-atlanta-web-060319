@@ -13,6 +13,7 @@ end
 def long_planeteer_calls(array)
   array.each.with_index.any? do |calls, index|
     calls[index] == 4
+     true 
   end 
 end
 
